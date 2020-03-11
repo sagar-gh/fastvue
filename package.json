@@ -18,7 +18,8 @@
   "scripts": {
     "brandX": "cross-env REACT_APP_BRAND=brandX rescripts start",
     "brandY": "cross-env REACT_APP_BRAND=brandY rescripts start",
-    "build": "rescripts build",
+    "buildX": "cross-env REACT_APP_BRAND=brandX rescripts build",
+    "buildY": "cross-env REACT_APP_BRAND=brandY rescripts build",
     "test": "rescripts test",
     "eject": "react-scripts eject"
   },
